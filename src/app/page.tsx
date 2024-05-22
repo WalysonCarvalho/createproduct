@@ -11,6 +11,7 @@ import Link from "next/link";
 
 export type Product = {
   id: number;
+  description: string;
   image: string;
   price: number;
   rating: {

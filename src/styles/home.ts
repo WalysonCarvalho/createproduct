@@ -13,6 +13,19 @@ min-height:100vh;
 
 
 `
+export const Div = styled.div `
+display: flex:
+align-items:center;
+justify-content: center;
+text-align: center;
+
+
+font-size:1rem ;
+font-family:Roboto 'san-serif';
+font-weight: 500; 
+color: black;
+
+`
 
 export const HomeContainer = styled.main `
 display:flex;

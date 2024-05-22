@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Loja de Roupas - Next.js
+Este é um projeto de exemplo para uma loja de roupas desenvolvida com Next.js. Ele inclui um carrossel de roupas para exibir os produtos de forma atraente.
 
-## Getting Started
+Pré-requisitos
+Certifique-se de ter o Node.js instalado em sua máquina.
 
-First, run the development server:
+Instalação
+Clone este repositório:
+bash
+Copiar código
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Navegue até o diretório do projeto:
+bash
+Copiar código
+cd nome-do-repositorio
+Instale as dependências:
+bash
+Copiar código
+npm install
+Como executar
+Execute o seguinte comando para iniciar o servidor de desenvolvimento:
 
-```bash
+bash
+Copiar código
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Isso iniciará o servidor de desenvolvimento do Next.js. Navegue até http://localhost:3000 em seu navegador para visualizar a aplicação.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Recursos
+Carrossel de roupas para exibir os produtos de forma atraente.
+Páginas dinâmicas para visualizar detalhes de cada produto.
+Roteamento simples e intuitivo com Next.js.
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar um pull request para melhorias..

@@ -8,7 +8,7 @@ Instalação
 Clone este repositório:
 bash
 Copiar código
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone (https://github.com/WalysonCarvalho/createproduct/tree/main)
 Navegue até o diretório do projeto:
 bash
 Copiar código

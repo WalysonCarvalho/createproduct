@@ -15,9 +15,10 @@ min-height:100vh;
 `
 export const Div = styled.div `
 display: flex:
+display:none; 
 align-items:center;
 justify-content: center;
-text-align: center;
+tex
 
 
 font-size:1rem ;

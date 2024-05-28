@@ -1,7 +1,7 @@
 "use client";
 import { GlobalStyle } from "@/styles/global";
 import {
-  Body,Footer,HomeContainer, Products, Span, Strong,} from "@/styles/home";
+  Body,Div,Footer,HomeContainer, Products, Span, Strong,} from "@/styles/home";
 import { useKeenSlider } from "keen-slider/react";
 import Image from "next/image";
 import "keen-slider/keen-slider.min.css";
@@ -54,10 +54,13 @@ export default function Home() {
               <Link href={`/product/${product.id}`}>
                 <Products className="keen-slider__slide">
                   <Image src={product.image} width={520} height={480} alt="" />
+                  
                   <Footer>
                     <Strong>{product.title} </Strong>
                     <Span>R${product.price}</Span>
+                    
                   </Footer>
+                  
                 </Products>
               </Link>
             ))}
@@ -67,5 +70,7 @@ export default function Home() {
         
       </HomeContainer>
     </Body>
+
+    
   );
 }
